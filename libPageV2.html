@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LibGuides Login</title>
+</head>
+<div id="header-wrapper" class="header-wrapper" style="background-color: #1a3660">
+  <a href="http://www.nu.edu/" class="logo"><img src="pics/nuLogo2.png" alt="HTML5" 
+  style="width:210px;height:180px; "/> 
+  </a>
+</div>
+
+<main style="text-align: center">
+  <!-- Don't forget to put in accessibilty on pics for disabled -->
+  <br>
+<header>
+  <h1>
+    <strong style="color:#1a3660">Library Authentication</strong>
+  </h1>
+  <p>
+    The resource you are trying to access is only available to authorized users
+  </p>
+</header>
+  <br>
+
+  <div id="sso">
+    <a type="submit" href="https://login.nu.edu/default.html" target="_blank" >
+    <button style="height:55px; width:170px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;" >Single Sign-On <br>Student, Faculty, Staff</button> 
+    <a href="http://nu.libguides.com/about" target="_blank"><button style="height:55px; width:170px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;" >Click Here to see What's New at The Library!</button></a>
+
+  </a>
+    <br><br>
+    <!-- Don't forget to put in accessibilty on pics for disabled -->
+    <p>National University offers Single Sign-On (SSO), a solotion
+      <br>that allows access to the most frequently used student, faculty,
+      <br>and staff software applications using one SSO username and password.
+    </p>
+  </div><br><br>
+  <!-- <a href="#alumni"  style="font-size:10px; color:darkblue;">
+  <button style="width: 134px; height: 30px">Click Here for Alumni Login</button>
+  </a> -->
+  <!-- clicking here will automatically scroll the down to alumni login -->
+<form action="/libGuides.html" method="POST"> 
+  <div id="alumni" >
+    <h2 style="font-size: 30px; font-weight: bold; color:#1a3660;">Alumni Login</h2>
+    <p>Alumni, please enter your 9-DIGIT NU ID 
+      <br>and Password provided with your subscription.
+    </p>
+  </div>
+  <div class="container">
+    <label for="username"><b>Alumni Username</b></label><br>
+    <input type="text" name="username" placeholder="Enter 9-Digit NU ID" id="username" minlength="9" maxlength="9"  required><br>
+    
+    <label for="alumni-psw"><b> Alumni Password</b></label><br>
+    <input type="password" name="alumni-psw" placeholder="Enter Password" id="alumni-psw" required>
+    <br><br>
+
+    <button type="submit" style="font-weight: bold; color:white; background-color:#1a3660; border-color:darkblue">Alumni Login</button>
+  </div>
+  <hr>
+  <div id="concerns">
+    <h2>Concerns</h2>
+    <p>For login problems, please contact the National University Library 
+      <br>at (858) 541-7900, or (866) 682-2237. You may also E-mail 
+    <a href="mailto:refdesk@nu.edu" style="text-decoration:none;">refdesk@nu.edu</a>.
+    </p>
+    <p>
+      National University System affiliate students should 
+      <br>consult the 
+      <a href="http://nu.libanswers.com" style="text-decoration:none;"> ASK US - FAQs</a> 
+      for information on their user ID and password.
+    </p>
+  </div><hr>
+<footer></footer>
+</form><br>
+<aside class="secondary-container">
+    <div class="module contact-details-desktop">
+        <!-- <a href="http://nu.libguides.com/about" target="_blank"><button style="height:55px; width:170px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;" >Click Here to see What's New at The Library!</button></a> -->
+        <p>
+            <strong>National University Library</strong>
+            <br> 9393 Lightwave Avenue
+            <br> San Diego, CA 92123
+            <br> (866) 682-2237 x7900
+            <br> (858) 367-0904 (Text)
+            <br>
+            <a href="mailto:refdesk@nu.edu">refdesk@nu.edu</a>
+            <br>
+            <br>
+            <strong>Regular Hours</strong>
+            <br> Mon-Thu: 10 a.m. to 10 p.m.
+            <br> Fri: 10 a.m. to 6 p.m.
+            <br> Sat: 8:30 a.m. to 5 p.m.
+            <br> Sun: 10 a.m. to 5 p.m.
+            <br>
+            <br>
+            <strong>Contact Us</strong>
+            <br>
+            <a href="mailto:refdesk@nu.edu" target="_blank">Email</a>
+            <br> San Diego: 858-541-7900
+            <br> Toll-Free: 1-866-NUACCES x7900
+            <br>
+</p>
+    </div>
+</aside>
+
+</main>
+</html>
+
