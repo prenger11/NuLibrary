@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<html class="no-js gt-ie8"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LibGuides Login</title>
+  <!-- This bit of the code deals with an icon font loading issue in IE8 -->
+    <!--[if IE 8]>
+          <style>html.ie-force-pseudo-refresh :before,html.ie-force-pseudo-refresh :after {content : none !important;}</style>
+          <script>window.attachEvent&&!window.addEventListener&&window.attachEvent("onload",function(){var a=document.documentElement,b=a.className;a.className=b+" ie-force-pseudo-refresh",setTimeout(function(){a.className=b},10)});</script>
+        <![endif]-->
 </head>
-<div id="header-wrapper" class="header-wrapper" style="background-color: #1a3660">
-  <a href="http://www.nu.edu/" class="logo"><img src="pics/nuLogo2.png" alt="HTML5" 
-  style="width:210px;height:180px; "/> 
-  </a>
-</div>
+<header style="overflow:hidden; background-color:#1a3660; padding:10px 10px;">
+  <a href="#default" class="logo" ><img src="/nuLogo3.png" height="125px" width="125px"/></a>
+      <a href="https://login.nu.edu/default.html" target="_blank" >
+        <button style="height:30px; width:108px; float:right; font-size:10px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;">
+        Single Sign-On
+        </button> 
+        </a>
+        <button style="height:30px; width:108px; float:right; font-size:10px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;">
+         Home
+        </button> 
+        <button style="height:30px; width:108px; float:right; font-size:10px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;">
+         Contact
+        </button> 
+        <button style="height:30px; width:108px; float:right; font-size:10px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;">
+         About
+        </button> 
+</header>
+
+<!-- style="float:left; color:white; text-align:right; padding:12px; text-decoration:none; font-size:18px; line-height:25px; border-radius:4px; " -->
+<!-- <div id="header-wrapper" class="header-wrapper" style="background-color: #1a3660; ">
+  <a class="logo" ><img src="/nuLogo3.png" alt="HTML5" 
+  style="width:200px;height:140px;"/> 
+  <b style="font-size:45px; font-weight:bold; color:white; ">
+    National University
+  </b>
+  </a> 
+</div> -->
 
 <main style="text-align: center">
   <!-- Don't forget to put in accessibilty on pics for disabled -->
@@ -23,13 +51,16 @@
   </p>
 </header>
   <br>
-
   <div id="sso">
-    <a type="submit" href="https://login.nu.edu/default.html" target="_blank" >
-    <button style="height:55px; width:170px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;" >Single Sign-On <br>Student, Faculty, Staff</button> 
-    <a href="http://nu.libguides.com/about" target="_blank"><button style="height:55px; width:170px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;" >Click Here to see What's New at The Library!</button></a>
-
-  </a>
+    <h2>
+      Students, Faculty, and Staff: 
+      <br>Log in using Single Sign-On by clicking the button below.
+    </h2>
+    <a href="https://login.nu.edu/default.html" target="_blank" >
+      <button style="height:60px; width:190px; font-size:14px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;">
+     <em style="font-size: 16px">Single Sign-On</em> <br>Student, Faculty, Staff
+      </button> 
+    </a>
     <br><br>
     <!-- Don't forget to put in accessibilty on pics for disabled -->
     <p>National University offers Single Sign-On (SSO), a solotion
@@ -76,34 +107,37 @@
 </form><br>
 <aside class="secondary-container">
     <div class="module contact-details-desktop">
-        <!-- <a href="http://nu.libguides.com/about" target="_blank"><button style="height:55px; width:170px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;" >Click Here to see What's New at The Library!</button></a> -->
+        <a href="http://nu.libguides.com/about" target="_blank">
+          <button style="height:55px; width:190px; font-size:12px; font-weight:bold; color:white; border-radius:8px; background-color:#1a3660;">
+            Click Here to see What's New at The Library!
+          </button>
+        </a>  
         <p>
-            <strong>National University Library</strong>
-            <br> 9393 Lightwave Avenue
-            <br> San Diego, CA 92123
-            <br> (866) 682-2237 x7900
-            <br> (858) 367-0904 (Text)
-            <br>
-            <a href="mailto:refdesk@nu.edu">refdesk@nu.edu</a>
-            <br>
-            <br>
-            <strong>Regular Hours</strong>
-            <br> Mon-Thu: 10 a.m. to 10 p.m.
-            <br> Fri: 10 a.m. to 6 p.m.
-            <br> Sat: 8:30 a.m. to 5 p.m.
-            <br> Sun: 10 a.m. to 5 p.m.
-            <br>
-            <br>
-            <strong>Contact Us</strong>
-            <br>
-            <a href="mailto:refdesk@nu.edu" target="_blank">Email</a>
-            <br> San Diego: 858-541-7900
-            <br> Toll-Free: 1-866-NUACCES x7900
-            <br>
-</p>
+          <strong>National University Library</strong>
+          <br> 9393 Lightwave Avenue
+          <br> San Diego, CA 92123
+          <br> (866) 682-2237 x7900
+          <br> (858) 367-0904 (Text)
+          <br>
+          <a href="mailto:refdesk@nu.edu">refdesk@nu.edu</a>
+          <br>
+          <br>
+          <strong>Regular Hours</strong>
+          <br> Mon-Thu: 10 a.m. to 10 p.m.
+          <br> Fri: 10 a.m. to 6 p.m.
+          <br> Sat: 8:30 a.m. to 5 p.m.
+          <br> Sun: 10 a.m. to 5 p.m.
+          <br>
+          <br>
+          <strong>Contact Us</strong>
+          <br>
+          <a href="mailto:refdesk@nu.edu" target="_blank">Email</a>
+          <br> San Diego: 858-541-7900
+          <br> Toll-Free: 1-866-NUACCES x7900
+          <br>
+        </p>
     </div>
 </aside>
-
 </main>
 </html>
 
