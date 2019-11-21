@@ -1,9 +1,15 @@
-<html class="no-js gt-ie8">
+<!DOCTYPE html>
+<html class="no-js gt-ie8"><!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="copyright" content="Copyright 2016 National University System, All Rights Reserved">
     <title>Login</title>
+     <!-- This bit of the code deals with an icon font loading issue in IE8 -->
+    <!--[if IE 8]>
+          <style>html.ie-force-pseudo-refresh :before,html.ie-force-pseudo-refresh :after {content : none !important;}</style>
+          <script>window.attachEvent&&!window.addEventListener&&window.attachEvent("onload",function(){var a=document.documentElement,b=a.className;a.className=b+" ie-force-pseudo-refresh",setTimeout(function(){a.className=b},10)});</script>
+        <![endif]-->
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index">
@@ -19,7 +25,7 @@
     <header id="header" role="banner" class="header">
       <div class="container">
         <h1 class="sr-only">National University</h1>
-        <a href="http://www.nu.edu/" class="logo">Home</a>
+        <a href="http://www.nu.edu/" class="logo"></a>
       </div>
     </header>
   </div>
@@ -37,31 +43,31 @@
         </div>
         <article class="primary-container" style="text-align: center">
         <div class="wysiwyg" >
-          <h2>Library Authentication</h2>
+          <h2><strong style="color:#1a3660">Library Authentication</strong></h2>
           <p>The resource you are trying to access is only available to authorized users.</p>
 				  <br>
-          <h2 style="color: 0077c8">
+          <h2 style="color:#1a3660">
             <strong>
-              <em>Students, Faculty, and Staff</em>
+              <em>Students, Faculty, and Staff:</em>
             </strong>
           </h2>
           <h3 style="color: 0077c8">
-            Log in using <b>Single Sign-On</b> <br>by clicking the button below.
+            Log in using <b style="color:#1a3660">Single Sign-On</b> by <br>clicking the button below.
           </h3><br>
           
-          <a type="submit" value="SSO"  href="https://login.nu.edu/default.html" target="_blank" >
-          <button style="height:65px; width:190px; font-size:14px; font-weight:bold; color:white; border-radius:8px; 
-          background-color:#1a3660;"><em>Single Sign-On</em> <br>Student, Faculty, Staff
-          </button> 
+          <a type="submit" value="SSO"  href="https://login.nuls.idm.oclc.org/login?auth=okta&amp;url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=all" target="_blank" >
+            <button style="height:65px; width:190px; font-size:14px; font-weight:bold; color:white; border-radius:8px; 
+            background-color:#1a3660;"><em>Single Sign-On</em> <br>Student, Faculty, Staff
+            </button> 
           </a>
-          <!-- This href is a link to the ebsco page  -->
+          <!-- This is the original href link to the ebsco page  -->
           <!-- <a type="submit" value="SSO" class="button info" 
             href="https://login.nuls.idm.oclc.org/login?auth=okta&amp;url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=all">
             Single Sign On<br><strong>Students, Faculty, Staff</strong>
           </a> -->
           <br><br><br><hr><br>
       
-          <h2 style="font-size: 30px; font-weight: bold; color:0077c8;">Alumni Login</h2>
+          <h2 style="font-size: 30px; font-weight: bold; color:#1a3660;">Alumni Login</h2>
           <strong>Alumni</strong>, please enter your <strong>9-DIGIT NU ID</strong> 
           <br>and <strong>Password provided with your subscription</strong>. <br><br>
           
